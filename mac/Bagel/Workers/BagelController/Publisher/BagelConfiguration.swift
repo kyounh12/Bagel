@@ -11,8 +11,8 @@ import Cocoa
 class BagelConfiguration: NSObject {
 
     static let netServiceDomain: String = ""
-    static let netServiceType: String = "_Bagel._tcp"
+    static let netServiceType: String = "_MVL_Bagel._tcp"
     static let netServiceName: String = ""
-    static let netServicePort: Int32 = 43435
+    static let netServicePort: Int32 = 43436
     
 }

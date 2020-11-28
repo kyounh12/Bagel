@@ -17,6 +17,7 @@ class DataJSONViewController: BaseViewController {
     
     let highlightr = Highlightr()
 
+    @IBOutlet var textFinder: NSTextFinder!
     @IBOutlet var rawTextView: NSTextView!
     
     @IBOutlet weak var rawTextScrollView: NSScrollView!
@@ -24,6 +25,9 @@ class DataJSONViewController: BaseViewController {
     @IBOutlet weak var progressIndicator: NSProgressIndicator!
     
     override func setup() {
+        textFinder?.client = self
+        textFinder?.isIncrementalSearchingEnabled = true
+        rawTextView?.usesFindBar = true
         
         self.copyToClipboardButton.image = ThemeImage.copyToClipboardIcon
         
@@ -70,3 +74,5 @@ class DataJSONViewController: BaseViewController {
         self.viewModel?.copyToClipboard()
     }
 }
+
+extension DataJSONViewController: NSTextFinderClient {}
