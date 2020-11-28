@@ -25,7 +25,7 @@ extension BagelRequestInfo {
     // https://gist.github.com/shaps80/ba6a1e2d477af0383e8f19b87f53661d
     fileprivate var curlString: String {
         guard let url = url else { return "" }
-        var baseCommand = "curl \(url)"
+        var baseCommand = "curl --http1.1 \(url)"
 
         if requestMethod == .head {
             baseCommand += " --head"
