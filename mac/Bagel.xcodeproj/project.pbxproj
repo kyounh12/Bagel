@@ -165,7 +165,7 @@
 		BCBD86E1215916C9009CBEA7 /* BagelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagelController.swift; sourceTree = "<group>"; };
 		BCBD86E3215916E0009CBEA7 /* BagelProjectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagelProjectController.swift; sourceTree = "<group>"; };
 		BCBD86E52159172B009CBEA7 /* BagelDeviceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagelDeviceController.swift; sourceTree = "<group>"; };
-		BCD0E023210F5E0D00CE5C7B /* Bagel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bagel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD0E023210F5E0D00CE5C7B /* MVLNetworkLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVLNetworkLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD0E026210F5E0D00CE5C7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCD0E028210F5E0D00CE5C7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BCD0E02A210F5E0D00CE5C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -460,7 +460,7 @@
 		BCD0E024210F5E0D00CE5C7B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BCD0E023210F5E0D00CE5C7B /* Bagel.app */,
+				BCD0E023210F5E0D00CE5C7B /* MVLNetworkLogger.app */,
 				BCD0E035210F5E0D00CE5C7B /* BagelTests.xctest */,
 				BCD0E040210F5E0D00CE5C7B /* BagelUITests.xctest */,
 			);
@@ -670,7 +670,7 @@
 			);
 			name = Bagel;
 			productName = Bagel;
-			productReference = BCD0E023210F5E0D00CE5C7B /* Bagel.app */;
+			productReference = BCD0E023210F5E0D00CE5C7B /* MVLNetworkLogger.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BCD0E034210F5E0D00CE5C7B /* BagelTests */ = {
@@ -1086,7 +1086,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.moly.MVLNetworkLogger;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MVLNetworkLogger;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 			};
@@ -1105,7 +1105,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.moly.MVLNetworkLogger;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MVLNetworkLogger;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 			};

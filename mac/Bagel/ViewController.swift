@@ -19,9 +19,13 @@ class ViewController: NSViewController {
     @IBOutlet weak var projectsBackgroundBox: NSBox!
     @IBOutlet weak var devicesBackgroundBox: NSBox!
     @IBOutlet weak var packetsBackgroundBox: NSBox!
+    @IBOutlet weak var containerSplitView: NSSplitView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        containerSplitView?.setPosition(100, ofDividerAt: 0)
+        containerSplitView?.setPosition(280, ofDividerAt: 1)
 
         _ = BagelController.shared
         
